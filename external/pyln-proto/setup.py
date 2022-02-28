@@ -35,7 +35,7 @@ setup(
         "root": "../..",
         "relative_to": __file__,
         # "write_to": "contrib/pyln-proto/pyln/proto/__version__.py",
-        "write_to_template": '__version__ = "{version}"\n',
+        #"write_to_template": '__version__ = "{version}"\n',
         "version_scheme": "post-release",
         "local_scheme": "no-local-version",
     },
