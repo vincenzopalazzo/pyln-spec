@@ -1,0 +1,4 @@
+.idea
+*.eggs
+
+tests/core/__pycache__/

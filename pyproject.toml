@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "pyln-spec"
+version = "0.1.0"
+description = ""
+authors = ["Vincenzo Palazzo <vincenzopalazzodev@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pyln-proto = { path = "external/pyln-proto/", develop = false }
+pyln-bolt1 = { path = "external/pyln-spec/bolt1/", develop = false }
+pyln-bolt2 = { path = "external/pyln-spec/bolt2/", develop = false }
+pyln-bolt4 = { path = "external/pyln-spec/bolt4/", develop = false }
+pyln-bolt7 = { path = "external/pyln-spec/bolt7/", develop = false }
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+black = "^22.1.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
