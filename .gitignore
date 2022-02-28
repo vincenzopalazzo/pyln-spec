@@ -1,6 +1,4 @@
 .idea
 *.eggs
-
-tests/core/__pycache__/
-
-external/pyln-spec/bolt7/pyln/spec/bolt7/__pycache__/
+**/__pycache__/
+*.pyc

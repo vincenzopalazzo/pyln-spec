@@ -1,5 +1,5 @@
 #! /usr/bin/python3
-from pyln.proto.message.fundamental_types import fundamental_types
+from pyln_spec.core.message.fundamental_types import fundamental_types
 import io
 
 

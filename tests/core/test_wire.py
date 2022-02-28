@@ -1,7 +1,7 @@
 from binascii import hexlify, unhexlify
 from pyln_spec.core.wire import PrivateKey, PublicKey, LightningConnection
 import socket
-from pyln.proto import wire
+from pyln_spec.core import wire
 import threading
 
 

@@ -1,5 +1,5 @@
 #! /usr/bin/python3
-from pyln.proto.message import Message, MessageNamespace
+from pyln_spec.core.message import Message, MessageNamespace
 import pyln_spec.bolt1 as bolt1
 import io
 
